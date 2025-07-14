@@ -61,3 +61,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "phlex-rails", github: "gtarsia/phlex-rails"
+
+gem "literal", "~> 1.8"
