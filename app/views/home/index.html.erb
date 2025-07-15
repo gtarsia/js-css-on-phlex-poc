@@ -1,0 +1,5 @@
+<% modal = Components::HelloModalComponent.new() %>
+<%= button_tag(onclick: modal.js.show) do %>
+  Show Modal
+<% end %>
+<%= render modal %>
